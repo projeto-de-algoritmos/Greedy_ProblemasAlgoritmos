@@ -1,41 +1,33 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Problemas Algoritmos
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 3<br>
+**Conteúdo da Disciplina**: Greedy<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0055241  |  Victor Jorge da Silva Gonçalves |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Este projeto contempla a resolução de diversos problemas propostos em juízes online utilizando-se da técnica de algoritmos ambiciosos. Cada problema possui uma particularidade e um nível de complexidade próprio, o que os torna comum é a possibilidade de serem resolvidos através do paradigma greed. Para compor o conjunto de problemas resolvidos, utilizamos os seguintes juízes online: CodeForces, UVA e URI.
 
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+## Problemas
+
+Confira a solução de cada problema! Estão disponíveis os códigos e as explicações para cada um deles, bem como testá-los em sua máquina.
+
+- [Appleman and Toastman](questions/ApplemanToastman/ApplemanToastman.md)
+- [Dragons](questions/dragons/README.md)
+- [Shopaholic](questions/shopaholic/README.md)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C++<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Necessário compilador para linguagem C++ (recomendado o uso do GCC). Caso esteja executando em MacOS, atente-se às necessidades atreladas ao uso do cabeçalho:
+
+```c++
+#include <bits/stdc++.h>
+```
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
