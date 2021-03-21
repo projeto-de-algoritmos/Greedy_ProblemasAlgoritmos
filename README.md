@@ -22,6 +22,7 @@ gulosos e também como pode ser dificil as vezes criamos esse tipo de solução.
 
 Confira a solução de cada problema! Estão disponíveis os códigos e as explicações para cada um deles, bem como testá-los em sua máquina.
 
+- [Add All](questions/addAll/README.md)
 - [Appleman and Toastman](questions/ApplemanToastman/ApplemanToastman.md)
 - [Dragons](questions/dragons/README.md)
 - [Shopaholic](questions/shopaholic/README.md)
