@@ -37,4 +37,4 @@ O resultado é o maior desconto possível.
 
 **Submissão**
 
-![Submissão](./submission1.png)
+![Submissão](submission1.png)
