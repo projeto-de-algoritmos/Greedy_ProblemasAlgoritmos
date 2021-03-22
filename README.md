@@ -1,4 +1,4 @@
-# NomedoProjeto
+# ProblemasGulosos
 
 **Número da Lista**: 3
 **Conteúdo da Disciplina**: Greedy
