@@ -34,6 +34,34 @@ n%3 + iX3 com i entre 0 e n.
 
 O resultado é o maior desconto possível.
 
+#### Código
+
+
+Após a leitura realizamos a ordenação dos items naquela interação.
+
+```c++
+sort(items.begin(), items.end());
+```
+
+Após isso descartamos as compras que terão menos de 3 items. Isso pode ser feito 
+apenas não visitando esses indices.
+
+```
+nonDiscountItems = n%3;
+```
+
+Após isso iremos pular de 3 em 3 posições a partir do menor item da primeira conta de 
+3 items, isso faz com que esse laço aconteça em n/3. Em cada interação somamos o desconto.
+
+```c++
+for(int i = nonDiscountItems; i < items.size(); i+=3){
+    discount += items[i];
+```
+
+A complexidade final do algorimo é o custo da fase mais custosa que é a fase de sorting.
+Em C++ o sort é a implementação de um algoritmo de Merge Sort, portanto a complexidade final
+é O(N.log(N)).
+
 
 **Submissão**
 
