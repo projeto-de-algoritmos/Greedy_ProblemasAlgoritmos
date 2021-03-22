@@ -37,6 +37,14 @@ Necessário compilador para linguagem C++ (recomendado o uso do GCC). Caso estej
 #include <bits/stdc++.h>
 ```
 
+## Screenshots
+
+#### Testando o código localmente
+![Testando o código localmente](images/savingthecity.png)
+
+#### Conferindo o veredito do juíz
+![Conferindo o veredito do juíz](images/savingthecity_veredict.png)
+
 ## Outros 
 
 Na pasta das questões temos todos os problemas resolvidos por pasta. Em cada 
