@@ -42,6 +42,60 @@ existente, após isso pegamos esses números, somamos e inserimos novamente na H
 Durante esse processo acumulamos o custo das somas, o algoritmo para no momento em que tem apenas 
 um único elemento na Heap.
 
+#### Código
+
+Para cada caso de teste precisamos ter um heap, o c++ oferece a implementação desta
+estrutura como interface da priority queue
+
+```C
+```
+
+```C
+#include <queue>
+
+priority_queue<long long, vector<long long>, greater<long long>> heap;
+```
+
+Primeiro realizamos a leitura do input dos dados e inserimos cada 
+elemento na heap.
+
+```C
+for(int i = 0; i<n; ++i){
+    cin >> value;
+
+    heap.push(value);
+}
+```
+
+Agora precisamos fazer a soma dos 2 menores elementos e inserir o resultado 
+do mesmo novamente na heap. A cada soma adicionamos o valor do custo.
+A consulta heap.top() Acontece em O(1) porém todas as chamadas a heap.pop() 
+tem complexide O(log(N)).
+
+
+```C
+while(heap.size() >= 2){
+    a = heap.top();
+    heap.pop();
+
+    b = heap.top();
+    heap.pop();
+
+    cost += a + b;
+    heap.push(a+b);
+}
+```
+
+Após isso retiramos o último elemento que existe na heap, para a próxima interação
+
+```C
+heap.pop();
+```
+
+Na análise de complexidade final temos N operações de soma que realizam duas bucas na heap. 
+Portanto essa solução é O(N.log(N))
+
+
 **Submissão**
 
 ![Submissão](submission2.png)
