@@ -47,10 +47,7 @@ um único elemento na Heap.
 Para cada caso de teste precisamos ter um heap, o c++ oferece a implementação desta
 estrutura como interface da priority queue
 
-```C
-```
-
-```C
+```c++
 #include <queue>
 
 priority_queue<long long, vector<long long>, greater<long long>> heap;
@@ -59,7 +56,7 @@ priority_queue<long long, vector<long long>, greater<long long>> heap;
 Primeiro realizamos a leitura do input dos dados e inserimos cada 
 elemento na heap.
 
-```C
+```c++
 for(int i = 0; i<n; ++i){
     cin >> value;
 
@@ -73,7 +70,7 @@ A consulta heap.top() Acontece em O(1) porém todas as chamadas a heap.pop()
 tem complexide O(log(N)).
 
 
-```C
+```c++
 while(heap.size() >= 2){
     a = heap.top();
     heap.pop();
@@ -88,7 +85,7 @@ while(heap.size() >= 2){
 
 Após isso retiramos o último elemento que existe na heap, para a próxima interação
 
-```C
+```c++
 heap.pop();
 ```
 

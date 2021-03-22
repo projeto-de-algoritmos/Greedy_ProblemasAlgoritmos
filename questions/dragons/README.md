@@ -24,14 +24,14 @@ Após a leitura dos dados ordenamos todos os elementos. Em
 C++ esse algoritmo é o Merge Sort portanto tem complexidade 
 O(N.log(N)).
 
-```C
+```c++
 sort(vet.begin(), vet.end());
 ```
 
 E após isso analisamos se existirá um dragão com força igual o maior
 na sequencia de batalhas o herói perde, caso contrário ele vence.
 
-```C
+```c++
     bool win = true;
 
     for(auto [force, bonus] : dragons){
