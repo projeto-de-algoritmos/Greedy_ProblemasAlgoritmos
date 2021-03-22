@@ -1,13 +1,13 @@
 # NomedoProjeto
 
-**Número da Lista**: 
+**Número da Lista**: 3
 **Conteúdo da Disciplina**: Greedy
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
 | 16/0049733  |  Felipe Borges de Souza Chaves |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0055241   |  Victor Jorge da Silva Gonçalves |
 
 ## Sobre 
 
