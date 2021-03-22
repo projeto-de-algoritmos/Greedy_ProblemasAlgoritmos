@@ -18,7 +18,11 @@ classifidos nesta técnica.
 O objetivo do projeto é demonstrar diferentes contextos onde podemos aplicar algoritmos 
 gulosos e também como pode ser dificil as vezes criamos esse tipo de solução.
 
-![exemplo1](figuras/printshop.png)
+![exemplo1](images/printshop.png)
+
+![exemplo2](images/savingthecity.png)
+
+![exemplo3](images/savingthecity_veredict.png)
 
 ## Problemas
 
