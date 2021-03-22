@@ -18,6 +18,8 @@ classifidos nesta técnica.
 O objetivo do projeto é demonstrar diferentes contextos onde podemos aplicar algoritmos 
 gulosos e também como pode ser dificil as vezes criamos esse tipo de solução.
 
+![exemplo1](figuras/printshop.png)
+
 ## Problemas
 
 Confira a solução de cada problema! Estão disponíveis os códigos e as explicações para cada um deles, bem como testá-los em sua máquina.
