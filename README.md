@@ -26,6 +26,7 @@ Confira a solução de cada problema! Estão disponíveis os códigos e as expli
 - [Appleman and Toastman](questions/ApplemanToastman/ApplemanToastman.md)
 - [Dragons](questions/dragons/README.md)
 - [Shopaholic](questions/shopaholic/README.md)
+- [Saving the City](questions/SavingTheCity/SavingTheCity.md)
 
 ## Instalação 
 **Linguagem**: C++<br>
